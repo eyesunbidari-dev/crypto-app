@@ -4,8 +4,11 @@
     justify-content: center;
     padding: 15px 15px;
     font-size: 12px;
-    color: #212529;
-    border-bottom: 1px solid rgb(245, 240, 240);
+    color: #5C5470;
+    border-bottom: 1px solid #5C5470;
+    box-shadow: 0px 2px 0px 1px rgba(183,99,191,0.53);
+-webkit-box-shadow: 0px 2px 0px 1px rgba(183,99,191,0.53);
+-moz-box-shadow: 0px 2px 0px 1px rgba(183,99,191,0.53);
 
 }
 .container:last-child {
@@ -42,4 +45,10 @@
 }
 .greenPriceChange{
     color: rgb(0,204 ,0 );
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        padding: 5px 5px;
+       }
 }
